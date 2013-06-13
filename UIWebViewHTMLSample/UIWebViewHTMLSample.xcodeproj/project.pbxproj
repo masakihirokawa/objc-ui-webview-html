@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21164CC1769627B009B4496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21164CB1769627B009B4496 /* UIKit.framework */; };
+		C21164CE1769627B009B4496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21164CD1769627B009B4496 /* Foundation.framework */; };
+		C21164D01769627B009B4496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21164CF1769627B009B4496 /* CoreGraphics.framework */; };
+		C21164D61769627B009B4496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C21164D41769627B009B4496 /* InfoPlist.strings */; };
+		C21164D81769627B009B4496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C21164D71769627B009B4496 /* main.m */; };
+		C21164DC1769627B009B4496 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C21164DB1769627B009B4496 /* AppDelegate.m */; };
+		C21164DE1769627B009B4496 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C21164DD1769627B009B4496 /* Default.png */; };
+		C21164E01769627B009B4496 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21164DF1769627B009B4496 /* Default@2x.png */; };
+		C21164E21769627B009B4496 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C21164E11769627B009B4496 /* Default-568h@2x.png */; };
+		C21164E51769627B009B4496 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21164E31769627B009B4496 /* MainStoryboard_iPhone.storyboard */; };
+		C21164E81769627B009B4496 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21164E61769627B009B4496 /* MainStoryboard_iPad.storyboard */; };
+		C21164EB1769627B009B4496 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21164EA1769627B009B4496 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C21164C81769627B009B4496 /* UIWebViewHTMLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewHTMLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21164CB1769627B009B4496 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C21164CD1769627B009B4496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C21164CF1769627B009B4496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C21164D31769627B009B4496 /* UIWebViewHTMLSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewHTMLSample-Info.plist"; sourceTree = "<group>"; };
+		C21164D51769627B009B4496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C21164D71769627B009B4496 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C21164D91769627B009B4496 /* UIWebViewHTMLSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewHTMLSample-Prefix.pch"; sourceTree = "<group>"; };
+		C21164DA1769627B009B4496 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C21164DB1769627B009B4496 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C21164DD1769627B009B4496 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C21164DF1769627B009B4496 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C21164E11769627B009B4496 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C21164E41769627B009B4496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C21164E71769627B009B4496 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C21164E91769627B009B4496 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C21164EA1769627B009B4496 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21164C51769627B009B4496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21164CC1769627B009B4496 /* UIKit.framework in Frameworks */,
+				C21164CE1769627B009B4496 /* Foundation.framework in Frameworks */,
+				C21164D01769627B009B4496 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C21164BF1769627B009B4496 = {
+			isa = PBXGroup;
+			children = (
+				C21164D11769627B009B4496 /* UIWebViewHTMLSample */,
+				C21164CA1769627B009B4496 /* Frameworks */,
+				C21164C91769627B009B4496 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21164C91769627B009B4496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21164C81769627B009B4496 /* UIWebViewHTMLSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21164CA1769627B009B4496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C21164CB1769627B009B4496 /* UIKit.framework */,
+				C21164CD1769627B009B4496 /* Foundation.framework */,
+				C21164CF1769627B009B4496 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21164D11769627B009B4496 /* UIWebViewHTMLSample */ = {
+			isa = PBXGroup;
+			children = (
+				C21164DA1769627B009B4496 /* AppDelegate.h */,
+				C21164DB1769627B009B4496 /* AppDelegate.m */,
+				C21164E31769627B009B4496 /* MainStoryboard_iPhone.storyboard */,
+				C21164E61769627B009B4496 /* MainStoryboard_iPad.storyboard */,
+				C21164E91769627B009B4496 /* ViewController.h */,
+				C21164EA1769627B009B4496 /* ViewController.m */,
+				C21164D21769627B009B4496 /* Supporting Files */,
+			);
+			path = UIWebViewHTMLSample;
+			sourceTree = "<group>";
+		};
+		C21164D21769627B009B4496 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21164D31769627B009B4496 /* UIWebViewHTMLSample-Info.plist */,
+				C21164D41769627B009B4496 /* InfoPlist.strings */,
+				C21164D71769627B009B4496 /* main.m */,
+				C21164D91769627B009B4496 /* UIWebViewHTMLSample-Prefix.pch */,
+				C21164DD1769627B009B4496 /* Default.png */,
+				C21164DF1769627B009B4496 /* Default@2x.png */,
+				C21164E11769627B009B4496 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21164C71769627B009B4496 /* UIWebViewHTMLSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21164EE1769627B009B4496 /* Build configuration list for PBXNativeTarget "UIWebViewHTMLSample" */;
+			buildPhases = (
+				C21164C41769627B009B4496 /* Sources */,
+				C21164C51769627B009B4496 /* Frameworks */,
+				C21164C61769627B009B4496 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewHTMLSample;
+			productName = UIWebViewHTMLSample;
+			productReference = C21164C81769627B009B4496 /* UIWebViewHTMLSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C21164C01769627B009B4496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = C21164C31769627B009B4496 /* Build configuration list for PBXProject "UIWebViewHTMLSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C21164BF1769627B009B4496;
+			productRefGroup = C21164C91769627B009B4496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21164C71769627B009B4496 /* UIWebViewHTMLSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C21164C61769627B009B4496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21164D61769627B009B4496 /* InfoPlist.strings in Resources */,
+				C21164DE1769627B009B4496 /* Default.png in Resources */,
+				C21164E01769627B009B4496 /* Default@2x.png in Resources */,
+				C21164E21769627B009B4496 /* Default-568h@2x.png in Resources */,
+				C21164E51769627B009B4496 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C21164E81769627B009B4496 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C21164C41769627B009B4496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21164D81769627B009B4496 /* main.m in Sources */,
+				C21164DC1769627B009B4496 /* AppDelegate.m in Sources */,
+				C21164EB1769627B009B4496 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C21164D41769627B009B4496 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21164D51769627B009B4496 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C21164E31769627B009B4496 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21164E41769627B009B4496 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C21164E61769627B009B4496 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21164E71769627B009B4496 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C21164EC1769627B009B4496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C21164ED1769627B009B4496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21164EF1769627B009B4496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewHTMLSample/UIWebViewHTMLSample-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewHTMLSample/UIWebViewHTMLSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C21164F01769627B009B4496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewHTMLSample/UIWebViewHTMLSample-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewHTMLSample/UIWebViewHTMLSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21164C31769627B009B4496 /* Build configuration list for PBXProject "UIWebViewHTMLSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21164EC1769627B009B4496 /* Debug */,
+				C21164ED1769627B009B4496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21164EE1769627B009B4496 /* Build configuration list for PBXNativeTarget "UIWebViewHTMLSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21164EF1769627B009B4496 /* Debug */,
+				C21164F01769627B009B4496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C21164C01769627B009B4496 /* Project object */;
+}
